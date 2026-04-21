@@ -1,4 +1,21 @@
 {
+  "name": "jpv-discussions",
   "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "features": {}
+  "features": {
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "yzhang.markdown-all-in-one",
+        "DavidAnson.vscode-markdownlint",
+        "GitHub.copilot"
+      ],
+      "settings": {
+        "editor.formatOnSave": true,
+        "files.trimTrailingWhitespace": true,
+        "files.insertFinalNewline": true
+      }
+    }
+  }
 }
