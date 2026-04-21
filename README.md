@@ -20,15 +20,19 @@ This combination allows creative output to function with the precision of engine
 ## Core Capabilities
 
 ### Digital Infrastructure Design
+
 Architecting scalable ecosystems across platforms, integrating tools into a unified operational environment.
 
 ### Automation & Workflow Engineering
+
 Building systems that eliminate manual dependency through event-driven logic and structured workflows.
 
 ### Monetization Systems
+
 Designing conversion pathways from entry to retention, including subscription models, gated access, and lifecycle flows.
 
 ### Creative Systems Integration
+
 Embedding creative direction into functional systems so content, experience, and infrastructure operate as one.
 
 ---
