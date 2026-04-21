@@ -1,0 +1,107 @@
+# Repository Labels
+#
+# This file defines the canonical label set for jpv-discussions.
+# Labels are organized by category using a consistent color scheme.
+# Apply via: gh label create --force (or a label-sync GitHub Action).
+#
+# Color palette:
+#   Type      → blue shades
+#   Status    → yellow/orange
+#   Priority  → red shades
+#   Community → green shades
+#   Automation→ grey
+
+labels:
+  # ── Type ────────────────────────────────────────────────────────────────────
+  - name: "bug"
+    color: "d73a4a"
+    description: "Something is wrong — documentation error, broken link, or template issue"
+
+  - name: "enhancement"
+    color: "0075ca"
+    description: "New feature or improvement to repository, templates, or community files"
+
+  - name: "question"
+    color: "cc317c"
+    description: "Further information requested"
+
+  - name: "documentation"
+    color: "0052cc"
+    description: "Improvements or additions to documentation"
+
+  # ── Status ──────────────────────────────────────────────────────────────────
+  - name: "needs-triage"
+    color: "e4e669"
+    description: "Newly opened; awaiting maintainer review and labeling"
+
+  - name: "in-progress"
+    color: "fbca04"
+    description: "Actively being worked on"
+
+  - name: "stale"
+    color: "ededed"
+    description: "No activity for an extended period; subject to automated closure"
+
+  - name: "blocked"
+    color: "b60205"
+    description: "Blocked by an external dependency or decision"
+
+  - name: "pinned"
+    color: "006b75"
+    description: "Should not be closed or marked stale"
+
+  - name: "wont-fix"
+    color: "ffffff"
+    description: "This will not be worked on"
+
+  - name: "duplicate"
+    color: "cfd3d7"
+    description: "This issue or PR already exists"
+
+  - name: "invalid"
+    color: "e4e669"
+    description: "Does not meet requirements or is out of scope"
+
+  # ── Priority ────────────────────────────────────────────────────────────────
+  - name: "priority: critical"
+    color: "b60205"
+    description: "Must be resolved immediately"
+
+  - name: "priority: high"
+    color: "d93f0b"
+    description: "Should be resolved in the current cycle"
+
+  - name: "priority: medium"
+    color: "e99695"
+    description: "Should be resolved soon"
+
+  - name: "priority: low"
+    color: "f9d0c4"
+    description: "Nice to have; no immediate urgency"
+
+  # ── Community ────────────────────────────────────────────────────────────────
+  - name: "good first issue"
+    color: "7057ff"
+    description: "Good for newcomers to the community"
+
+  - name: "help wanted"
+    color: "008672"
+    description: "Extra attention or community input is needed"
+
+  - name: "discussion"
+    color: "d4edda"
+    description: "Better suited for GitHub Discussions than an issue"
+
+  # ── Security ─────────────────────────────────────────────────────────────────
+  - name: "security"
+    color: "b60205"
+    description: "Security-related finding; not subject to stale automation"
+
+  # ── Automation / Dependencies ─────────────────────────────────────────────────
+  - name: "dependencies"
+    color: "0366d6"
+    description: "Automated dependency update (Dependabot)"
+
+  - name: "github-actions"
+    color: "1d76db"
+    description: "Changes to GitHub Actions workflows or configurations"

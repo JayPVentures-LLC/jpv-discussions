@@ -1,0 +1,49 @@
+name: Stale Issue and PR Management
+
+on:
+  schedule:
+    # Run daily at 02:00 UTC
+    - cron: "0 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  stale:
+    name: Mark and Close Stale Items
+    runs-on: ubuntu-latest
+    steps:
+      - name: Manage stale issues and PRs
+        # actions/stale@v9 — pinned SHA for supply-chain security
+        uses: actions/stale@5bef64f19d7facfb25b37b414482c7164d639639
+        with:
+          # Issues
+          days-before-issue-stale: 60
+          days-before-issue-close: 14
+          stale-issue-label: "stale"
+          stale-issue-message: >
+            This issue has been automatically marked as stale because it has had no activity
+            for 60 days. It will be closed in 14 days unless further activity occurs.
+            If this issue is still relevant, please comment or remove the **stale** label.
+          close-issue-message: >
+            This issue was closed automatically after 14 days of inactivity following the
+            stale notice. If this is still relevant, please open a new issue with updated
+            context and link back to this one.
+          # Pull Requests
+          days-before-pr-stale: 30
+          days-before-pr-close: 7
+          stale-pr-label: "stale"
+          stale-pr-message: >
+            This pull request has been automatically marked as stale because it has had no
+            activity for 30 days. It will be closed in 7 days unless further activity occurs.
+            If this PR is still relevant, please rebase, update, or comment to keep it open.
+          close-pr-message: >
+            This pull request was closed automatically after 7 days of inactivity following
+            the stale notice. If the change is still needed, please reopen with updated context.
+          # Never stale security or pinned items
+          exempt-issue-labels: "security,pinned,blocked"
+          exempt-pr-labels: "security,pinned,blocked"
+          # Limit operations per run to stay within rate limits
+          operations-per-run: 100

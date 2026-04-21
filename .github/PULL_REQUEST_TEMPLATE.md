@@ -21,6 +21,19 @@ Closes #
 
 -
 
+## Impact Assessment
+
+<!-- Describe any potential impact on the community, contributors, or automation. -->
+
+- **Scope:** <!-- e.g., cosmetic, structural, behavioral -->
+- **Breaking:** <!-- Yes / No — does this change affect existing contributor workflows? -->
+
+## Security Considerations
+
+- [ ] This change does not introduce secrets, tokens, or credentials
+- [ ] This change does not modify GitHub Actions workflows in a way that expands permissions
+- [ ] This change does not expose non-public information
+
 ## Checklist
 
 - [ ] I have read the [Contributing Guidelines](../CONTRIBUTING.md)
@@ -28,3 +41,4 @@ Closes #
 - [ ] My changes follow the style guidelines (sentence case headings, trimmed whitespace, final newline)
 - [ ] I have searched for and linked any related issues
 - [ ] This PR makes a focused, single-purpose change
+
