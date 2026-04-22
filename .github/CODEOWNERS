@@ -4,16 +4,16 @@
 # that modifies matching files.
 # See: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
 
-# Default: all files require review from a JayPVentures-LLC maintainer
-*                   @JayPVentures-LLC
+# Default: all files require review from a JayPVentures-LLC maintainer team
+*                   @JayPVentures-LLC/maintainers
 
 # Community health files
-CODE_OF_CONDUCT.md  @JayPVentures-LLC
-CONTRIBUTING.md     @JayPVentures-LLC
-README.md           @JayPVentures-LLC
+CODE_OF_CONDUCT.md  @JayPVentures-LLC/maintainers
+CONTRIBUTING.md     @JayPVentures-LLC/maintainers
+README.md           @JayPVentures-LLC/maintainers
 
 # Security policy
-.github/SECURITY.md @JayPVentures-LLC
+.github/SECURITY.md @JayPVentures-LLC/maintainers
 
 # CI/CD workflows
-.github/workflows/  @JayPVentures-LLC
+.github/workflows/  @JayPVentures-LLC/maintainers

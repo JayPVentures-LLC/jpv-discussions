@@ -13,7 +13,7 @@ updates:
     commit-message:
       prefix: "chore(deps)"
     reviewers:
-      - "JayPVentures-LLC"
+      - "JayPVentures-LLC/maintainers"
     open-pull-requests-limit: 5
     groups:
       github-actions:

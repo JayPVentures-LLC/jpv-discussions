@@ -44,7 +44,7 @@ This Code of Conduct applies within all community spaces, including this reposit
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the maintainers via the contact information listed in the [Security Policy](.github/SECURITY.md) or by emailing the organization directly.
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the maintainers through the GitHub Private Security Advisory process described in the [Security Policy](.github/SECURITY.md).
 
 All complaints will be reviewed and investigated promptly and fairly. Maintainers are obligated to respect the privacy and security of the reporter of any incident.
 
