@@ -1,0 +1,10 @@
+# Lychee link-checker configuration
+# https://github.com/lycheeverse/lychee#configuration
+
+# Exclude the GitHub Discussions URL from link checking.
+# This URL returns 404 when the Discussions feature is not yet enabled in
+# repository settings.  Once Discussions is enabled, this exclusion can be
+# removed and the link will be verified on every CI run.
+exclude = [
+    "https://github\\.com/JayPVentures-LLC/jpv-discussions/discussions",
+]
