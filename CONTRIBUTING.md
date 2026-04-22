@@ -17,7 +17,7 @@ Thank you for your interest in contributing to the JayPVentures community. This 
 ## Getting Started
 
 1. **Read the [Code of Conduct](CODE_OF_CONDUCT.md).** All participants are expected to follow it.
-2. **Search before posting.** Check existing [Discussions](../../discussions) and [Issues](../../issues) to avoid duplicates.
+2. **Search before posting.** Check existing [Discussions](https://github.com/JayPVentures-LLC/jpv-discussions/discussions) and [Issues](https://github.com/JayPVentures-LLC/jpv-discussions/issues) to avoid duplicates.
 3. **Use the right channel.** Discussions are for open conversation; Issues are for specific, actionable items.
 
 ---
@@ -71,4 +71,4 @@ Do **not** open a public issue for security vulnerabilities. See the [Security P
 
 ## Questions?
 
-Start a [Discussion](../../discussions) in the Q&A category. The maintainers monitor discussions and will respond.
+Start a [Discussion](https://github.com/JayPVentures-LLC/jpv-discussions/discussions) in the Q&A category. The maintainers monitor discussions and will respond.

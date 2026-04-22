@@ -22,7 +22,7 @@ For security issues in JayPVentures production systems, infrastructure, or other
 ### Preferred: GitHub Private Security Advisory
 
 Use GitHub's built-in private reporting feature:
-1. Navigate to the **[Security tab](../../security/advisories/new)** of this repository.
+1. Navigate to the **[Security tab](https://github.com/JayPVentures-LLC/jpv-discussions/security/advisories/new)** of this repository.
 2. Click **"Report a vulnerability"**.
 3. Fill in the advisory form. Your report will be visible only to repository maintainers.
 
