@@ -26,7 +26,7 @@ Use GitHub's built-in private reporting feature:
 2. Click **"Report a vulnerability"**.
 3. Fill in the advisory form. Your report will be visible only to repository maintainers.
 
-### What to include in your report in your report
+### What to include in your report
 
 - A clear description of the vulnerability
 - Steps to reproduce or proof-of-concept
