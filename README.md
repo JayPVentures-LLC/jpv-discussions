@@ -21,7 +21,7 @@ This is not a primary codebase repository. For core infrastructure and code, see
 
 ### Discussions
 
-Use [GitHub Discussions](../../discussions) to start or join conversations. Categories include:
+Use [GitHub Discussions](https://github.com/JayPVentures-LLC/jpv-discussions/discussions) to start or join conversations. Categories include:
 
 - **Q&A** — Get answers to your questions
 - **Ideas** — Propose new features or improvements
@@ -29,7 +29,7 @@ Use [GitHub Discussions](../../discussions) to start or join conversations. Cate
 
 ### Issues
 
-Use [GitHub Issues](../../issues) for:
+Use [GitHub Issues](https://github.com/JayPVentures-LLC/jpv-discussions/issues) for:
 
 - Reporting documentation errors or gaps
 - Flagging broken links or outdated information in public-facing materials
