@@ -17,7 +17,7 @@ jobs:
     steps:
       - name: Manage stale issues and PRs
         # actions/stale@v9 — pinned SHA for supply-chain security
-        uses: actions/stale@5bef64f19d7facfb25b37b414482c7164d639639
+        uses: actions/stale@b5d41d4e1d5dceea10e7104786b73624c18a190f
         with:
           # Issues
           days-before-issue-stale: 60
