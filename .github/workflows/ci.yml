@@ -49,7 +49,6 @@ jobs:
         with:
           args: >
             --exclude-loopback
-            --exclude-mail
             --no-progress
             '**/*.md'
         env:
