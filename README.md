@@ -19,13 +19,9 @@ This is not a primary codebase repository. For core infrastructure and code, see
 
 ## How to Participate
 
-### Discussions
+### Community
 
-Use [GitHub Discussions](https://github.com/JayPVentures-LLC/jpv-discussions/discussions) to start or join conversations. Categories include:
-
-- **Q&A** — Get answers to your questions
-- **Ideas** — Propose new features or improvements
-- **General** — Open-ended conversation about JayPVentures direction and systems
+Review the [Community page](COMMUNITY.md) for participation standards, contribution guidelines, and contact channels.
 
 ### Issues
 
