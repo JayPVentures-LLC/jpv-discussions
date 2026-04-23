@@ -78,7 +78,7 @@ Acceptance is based on:
 
 Security is treated as a core system function.
 
-- Report vulnerabilities to: **security@jaypventuresllc.com**
+- Report vulnerabilities to: **<security@jaypventuresllc.com>**
 - Do not publicly disclose active vulnerabilities prior to review
 - Responsible disclosure practices are expected
 
@@ -89,16 +89,16 @@ Security is treated as a core system function.
 All communication is **role-based and purpose-specific**:
 
 - **Enterprise / Primary Contact**
-  jayhere@jaypventuresllc.com
+  <jayhere@jaypventuresllc.com>
 
 - **Security & Compliance**
-  security@jaypventuresllc.com
+  <security@jaypventuresllc.com>
 
 - **Support / Operations**
-  support@jaypventuresllc.com
+  <support@jaypventuresllc.com>
 
 - **Partnerships / Strategic Collaboration**
-  venture@jaypventuresllc.com
+  <venture@jaypventuresllc.com>
 
 > Unsolicited sales outreach will not receive a response.
 
