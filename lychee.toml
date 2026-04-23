@@ -1,0 +1,21 @@
+# Lychee link-checker configuration
+# https://github.com/lycheeverse/lychee#configuration
+
+# Exclude the GitHub Discussions URL from link checking.
+# This URL returns 404 when the Discussions feature is not yet enabled in
+# repository settings. Once Discussions is enabled, this exclusion can be
+# removed and the link will be verified on every CI run.
+exclude = [
+    "https://github\\.com/JayPVentures-LLC/jpv-discussions/discussions",
+]
+
+# Accept HTTP 429 (Too Many Requests) in addition to standard 2xx codes.
+# GitHub may rate-limit CI runners; treating 429 as passing prevents
+# transient failures from breaking the build.
+accept = "200..=299,429"
+
+# Retry each request up to 3 times before reporting a broken link.
+max_retries = 3
+
+# Per-request timeout in seconds.
+timeout = 30
