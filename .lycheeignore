@@ -1,0 +1,3 @@
+# GitHub Discussions is not enabled for this repository;
+# exclude the /discussions path to avoid false-positive 404 failures.
+https://github.com/JayPVentures-LLC/jpv-discussions/discussions
