@@ -1,63 +1,37 @@
-# JayPVentures Discussions
+# JayPVentures LLC · Developer discussions
 
-> Community hub for ideas, feedback, and open conversation around JayPVentures systems and strategy.
+A public forum for thoughtful engineering conversations about systems architecture, accountable automation, privacy-conscious design, and published JPV-OS work.
 
----
+[Join GitHub Discussions](https://github.com/JayPVentures-LLC/jpv-discussions/discussions) · [Engineering profile](https://github.com/jaypVLabs/jaypvlabs) · [Sponsor the work](https://github.com/sponsors/JayPVentures-LLC)
 
-## Purpose
+## Start a conversation
 
-This repository is the public-facing space for community engagement with JayPVentures. It is the place to:
+Use [General](https://github.com/JayPVentures-LLC/jpv-discussions/discussions/categories/general) for architectural conversations, [Q&A](https://github.com/JayPVentures-LLC/jpv-discussions/discussions/categories/q-a) for questions about published material, and [Ideas](https://github.com/JayPVentures-LLC/jpv-discussions/discussions/categories/ideas) for proposals.
 
-- **Ask questions** about JayPVentures products, infrastructure, or strategy
-- **Share ideas** and feature requests for existing or future systems
-- **Provide feedback** on public releases, documentation, or community initiatives
-- **Start conversations** around topics at the intersection of systems strategy and creative innovation
+Useful topics include service boundaries and interface contracts; verification and human review of automation; data minimization and least privilege; failure handling and observability; and accessible, reproducible public documentation.
 
-This is not a primary codebase repository. For core infrastructure and code, see the organization's private repositories.
+Explain the problem, link relevant public material, state your assumptions, and describe the tradeoffs you want to explore. Discussion topics are not claims of verified production capabilities.
 
----
+## Contribute within the public scope
 
-## How to Participate
+This repository hosts community documentation and conversations. Contributions can improve documentation, correct broken links, critique published architecture, or propose sanitized examples for maintainer review. Use [Issues](https://github.com/JayPVentures-LLC/jpv-discussions/issues) for actionable repository maintenance and documentation problems.
 
-### Community
+Private JPV-OS source, runtime implementation, identity and access internals, payment and entitlement systems, operational configuration, credentials, and incident evidence are outside this public scope. Do not post private code, real user data, sensitive logs, or exploit details. Participation does not grant private repository access, rights to proprietary implementation, or permission to test production systems.
 
-Review the [Community page](COMMUNITY.md) for participation standards, contribution guidelines, and contact channels.
+Read the [contribution guidelines](CONTRIBUTING.md), [community guidance](COMMUNITY.md), and [code of conduct](CODE_OF_CONDUCT.md). Keep feedback specific, respectful, and grounded in public evidence.
 
-### Issues
+## Support and collaboration
 
-Use [GitHub Issues](https://github.com/JayPVentures-LLC/jpv-discussions/issues) for:
+[Sponsor JayPVentures LLC on GitHub](https://github.com/sponsors/JayPVentures-LLC). The recipient is **JayPVentures-LLC**; GitHub lists current tiers and terms.
 
-- Reporting documentation errors or gaps
-- Flagging broken links or outdated information in public-facing materials
-- Requesting new discussion categories or repository improvements
+For research, documentation, tooling, and collaboration sponsorship inquiries, contact [jayhere@jaypventuresllc.com](mailto:jayhere@jaypventuresllc.com). Sponsorship does not purchase confidential code, system access, security exceptions, or control over technical decisions. Separate deliverables require an explicit agreement.
 
-Please review the [contributing guidelines](https://github.com/JayPVentures-LLC/jpv-discussions/blob/main/CONTRIBUTING.md) before opening an issue or discussion.
+## Responsible security disclosure
 
----
+Report suspected vulnerabilities privately to [security@jaypventuresllc.com](mailto:security@jaypventuresllc.com), as listed in [COMMUNITY.md](COMMUNITY.md), and consult the [security policy](.github/SECURITY.md). Use GitHub private vulnerability reporting if it is available for the affected repository.
 
-## Community Standards
-
-All participants are expected to follow the [Code of Conduct](CODE_OF_CONDUCT.md). This is an inclusive, professional space. Disrespectful or off-topic behavior will not be tolerated.
-
----
-
-## Security
-
-If you discover a security vulnerability in any JayPVentures system or public repository, **do not open a public issue**. Instead, follow the [Security Policy](.github/SECURITY.md) for responsible disclosure.
-
----
-
-## About JayPVentures
-
-JayPVentures designs and implements digital infrastructure that transforms ideas into structured, revenue-generating systems. The work sits at the intersection of:
-
-- **Systems Strategy** — architecture, automation, and operational design
-- **Creative Innovation** — real-time concepts, experiences, and cultural execution
-
-Structure replaces effort. Precision is a standard, not a feature.
-
----
+Do not open a public issue or discussion with credentials, personal data, or active exploit details. Privately provide the affected component, potential impact, and minimal safe reproduction details. Public discussion is not authorization for intrusive security testing.
 
 ## License
 
-This repository is licensed under the [MIT License](LICENSE).
+The [MIT License](LICENSE) applies to this repository's licensed material. It does not license private repositories or proprietary systems discussed here.
